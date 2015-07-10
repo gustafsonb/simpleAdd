@@ -7,32 +7,21 @@ public class SimpleAdd {
 		String answer ="Y";
 		Scanner in = new Scanner(System.in);
 		
-		
-		
-		
-        while(answer.equals("Y")){
+            while(answer.equals("Y")){
             
-		
 		System.out.println("First number");
-		a = in.nextInt();
-		
+                    a = in.nextInt();
 		System.out.println("Second number");
-		b = in.nextInt();
+                    b = in.nextInt();
 		
-		
-		c = a + b;
+                    c = a + b;
 		
 		System.out.println("Sum of inputs  "+c);
 		
 		System.out.println("Again?????");
                     
-                    answer =  
-                    
-                    
-		}
-			
-				
+                    answer = in.next(); 
+            }
         }
-			
 }
 	
