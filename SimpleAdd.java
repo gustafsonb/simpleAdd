@@ -2,13 +2,16 @@ import java.util.Scanner;
 
 public class SimpleAdd {
 	public static void main( String[] args ){
+		
+		int a, b, c;
+		String answer ="Y";
 		Scanner in = new Scanner(System.in);
 		
 		
-		int a, b, c;
 		
-        while(true){
-            System.out.println("Again?????");
+		
+        while(answer.equals("Y")){
+            
 		
 		System.out.println("First number");
 		a = in.nextInt();
@@ -21,10 +24,11 @@ public class SimpleAdd {
 		
 		System.out.println("Sum of inputs  "+c);
 		
-		
+		System.out.println("Again?????");
                     
-                    if(){
-                    }
+                    answer =  
+                    
+                    
 		}
 			
 				
